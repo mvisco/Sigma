@@ -1,0 +1,6 @@
+For ubuntu trusty run the following comand to get all the needed libraries:
+sudo apt-get install build-essential python-dev libatlas-dev libatlas3-base liblapack-dev gfortran libpng12-dev libfreetype6-dev
+
+After that do a source ./requirement.txt
+
+This command should setup a venv where sigma can be run.

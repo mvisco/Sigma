@@ -1,0 +1,16 @@
+datacenter : his
+smokeping_node : mario-ubuntu-02-his-internal
+user : sandbox
+targets_file : /etc/smokeping/config.d/Targets
+rdd_dir_path : /var/lib/smokeping/mysite1
+domain_name : his-internal
+bastion_string : sandbox@bastion-his
+graphite_server : 1.1.1.1
+services :
+       - smokeping_data
+       - server_data
+hosts :
+    - mario-ubuntu-01
+    - mario-postgres-02
+    - grafana-server
+

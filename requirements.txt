@@ -1,0 +1,17 @@
+pbr
+fabric
+boto
+cli53
+pyrax
+pyyaml
+hiera-py
+wempy
+python-openstackclient
+python-novaclient==2.31.0
+python-glanceclient==0.13.1
+python-neutronclient==2.3.7
+ZODB
+zodbpickle
+numpy
+scipy
+scikit-learn
